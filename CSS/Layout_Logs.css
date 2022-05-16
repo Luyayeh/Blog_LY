@@ -1,0 +1,54 @@
+html
+{
+    background-image: url("../images/MainBackground.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+   background-color: rgba(220, 220, 220, 0.1); 
+}
+
+.menu
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.menu > ul > li
+{
+    display: blcok;
+    float: left;
+    color: white;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 15px;
+}
+
+body > div
+{
+    width: 70%;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto; 
+    padding-bottom: 45%;
+    background-color: rgba(190, 211, 229, 0.8);
+    border: 5px solid rgba(90, 211, 229, 0.3); 
+}
+
+body > div > h1
+{
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Courier New", monospace;
+    font-size: 1.5em;
+}

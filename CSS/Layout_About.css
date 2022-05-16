@@ -1,0 +1,65 @@
+html
+{
+    background-image: url("../images/MainBackground.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+   background-color: rgba(220, 220, 220, 0.1); 
+}
+
+.menu
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.menu > ul > li
+{
+    display: blcok;
+    float: left;
+    color: white;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 15px;
+}
+
+article#right
+{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 58%;
+    padding-bottom: 33%;
+    border: 5px double white;
+}
+
+article#right > figure
+{
+    padding-top: 3%;
+}
+
+.logo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+article#right > h6
+{
+    padding: 2% 0;
+    text-align: center;
+    color: whitesmoke;
+}
